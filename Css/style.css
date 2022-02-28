@@ -1,0 +1,272 @@
+:root {
+    --main-bckgnd-color : #1c1c1c;
+    --submain-bckgnd-colo: #D8D1BD;
+}
+
+p{
+    font-family: Helvetica;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--main-bckgnd-color );
+    width: 100vw;
+    height: 100vh;
+}
+
+.header_sec{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: var(--submain-bckgnd-colo);
+    font-size: 4em;
+    
+}
+nav{
+    display: none;
+}
+.nav_links a{
+    position: relative;
+    color: var(--submain-bckgnd-colo);
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 50%;
+    margin: auto;
+}
+.nav_links a:hover{
+    color: #fff;
+}
+
+.nav_links a::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.nav_links a:hover::before{
+    width: 100%;
+}
+
+
+.line_1, .line_2, .line_3{
+    border: 2px solid var(--submain-bckgnd-colo);
+    width: 30px;
+    margin: 2px;
+    z-index: 100;
+}
+
+.humberger_menu{
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.humberger_menu:hover{
+    cursor: pointer;
+}
+
+.open .nav_links{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    background-color: var(--main-bckgnd-colo);
+    z-index: 1;
+    transform: translateX(0);
+}
+
+.open .humberger_menu{
+    color: var(--main-bckgnd-color);
+}
+
+
+
+
+/*
+ Intro section
+ *************
+*/
+
+.intro_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    width: 100vw;
+    text-transform: uppercase;
+
+}
+
+.intro_sec p{
+    color: var(--submain-bckgnd-colo);
+    font-size:2em;
+}
+
+.intro_sec h1{
+    color: var(--submain-bckgnd-colo);
+    font-size: 6em;
+}
+
+
+/*
+ about section
+ *************
+*/
+
+.about{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--submain-bckgnd-colo);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side{
+    width: 50vw;
+    height: 100vh;
+}
+.about_info{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.about_info .top_name, .bottom_name{
+    font-size: 3.3em;
+    font-family: Helvetica Neue;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bottom_name{
+    position: relative;
+    bottom: 28px;
+    right: 15px;
+}
+
+.about_info > p{
+    width: 50%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.icons{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em;
+    width: 50%;
+    margin: auto;
+}
+
+/*
+Right section
+*************
+*/
+.right_section{
+    width: 50vw;
+    height: 100vh;
+}
+
+.right_section img{
+    width: 50vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/*
+Project button
+**************
+*/
+
+
+.project_btn button{
+    position: relative;
+    top: 60px;
+    padding: 10px 35px;
+    background-color: var(--main-bckgnd-color);
+    color: var(--submain-bckgnd-colo);
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 var(--submain-bckgnd-colo);
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: 4s;
+}
+
+button:hover{
+    box-shadow: inset 400px 0 0 0 var(--main-bckgnd-color);
+}
+
+
+/*
+Project section
+***************
+*/
+
+.project_container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container_1{
+    width: 300px;
+    height: 350px;
+    
+}
+
+.site_display{
+    width: 250px;
+    height: 250px;
+}
+.site_display img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/*
+contact section
+***************
+*/
+
+.contact_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--submain-bckgnd-colo);
+}
+
+
+
