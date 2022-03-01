@@ -31,11 +31,9 @@ header{
 
 .logo a{
     margin-left: 20px;
-    position: relative;
-    top: 20px;
     text-decoration: none;
-    color: var(--secondary-color2);
-    font-size: 2em;
+    color: var(--secondary-color);
+    font-size: 3.5em;
     
 }
 nav{
@@ -103,7 +101,7 @@ nav{
 
 .open .humberger_menu{
     color: var(--main-bckgnd-color);
-    
+
 }
 
 
@@ -170,7 +168,7 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--secondary-color2);
+    color: var(--secondary-color);
 }
 
 .bottom_name{
@@ -195,6 +193,10 @@ nav{
     width: 70%;
     margin: auto;
     text-transform: uppercase;
+}
+
+.icons p{
+    color: var(--secondary-color);
 }
 
 /*
@@ -222,7 +224,7 @@ Project button
     position: relative;
     top: 60px;
     padding: 10px 35px;
-    background-color: var(--secondary-color2);
+    background-color: var(--secondary-color);
     color: var(--submain-bckgnd-colo);
     border-radius: 5px;
     cursor: pointer;
@@ -377,6 +379,21 @@ contact section
     color: var(--main-bckgnd-color);
     font-size: 1.5em;
     margin: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+
 }
 
 
