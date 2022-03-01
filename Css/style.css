@@ -13,6 +13,7 @@ p{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 header{
@@ -70,7 +71,7 @@ nav{
 
 
 .line_1, .line_2, .line_3{
-    border: 2px solid var(--secondary-color2);
+    border: 2px solid var(--secondary-color);
     width: 30px;
     margin: 2px;
     z-index: 100;
@@ -102,6 +103,7 @@ nav{
 
 .open .humberger_menu{
     color: var(--main-bckgnd-color);
+    
 }
 
 
@@ -122,6 +124,9 @@ nav{
     width: 100vw;
     text-transform: uppercase;
 
+}
+.intro_sec span{
+    color: var(--secondary-color);
 }
 
 .intro_sec p{
@@ -327,6 +332,51 @@ contact section
     width: 100vw;
     height: 100vh;
     background-color: var(--submain-bckgnd-colo);
+    display: flex;
+}
+
+.left_contact{
+    width: 50vw;
+    height: 100vh;
+}
+.left_contact h2{
+    width: 0vw;
+    margin-left: 4em;
+    margin-top: 3em;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Helvetica
+}
+.left_contact span{
+    color: var(--secondary-color);
+}
+
+
+.right_contact{
+    width: 50vw;
+}
+
+.right_contact_details{
+    width: 30vw;
+    margin: auto;
+    margin-top: 14em;
+}
+
+.primary_contact{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.primary_contact .title {
+    font-size: 1.5em;
+}
+
+.secondary_contact i{
+    color: var(--main-bckgnd-color);
+    font-size: 1.5em;
+    margin: 2em;
 }
 
 
