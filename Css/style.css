@@ -75,6 +75,7 @@ nav{
     width: 30px;
     margin: 2px;
     z-index: 100;
+    transition: 0.3s ease;
 }
 
 .humberger_menu{
@@ -103,9 +104,19 @@ nav{
 
 .open .humberger_menu{
     color: var(--main-bckgnd-color);
-
+}
+.open .line_1{
+    margin: 0;
+    transform: rotate(45deg);
+}
+.open .line_2{
+    margin: 0px;
+    transform: rotate(-45deg);
 }
 
+.open .line_3{
+    opacity: 0;
+}
 
 
 
