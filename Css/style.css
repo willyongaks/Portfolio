@@ -464,7 +464,7 @@ contact section
     .project_list {
         display: inline;
         width: 90vw;
-        left: 6em;
+        margin-left: auto;
         top: 15em;
     }
     .prjct_1{
