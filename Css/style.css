@@ -261,7 +261,7 @@ Project section
 }
 
 .project_list{
-    width: 70vw;
+    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -338,63 +338,41 @@ contact section
 }
 
 .left_contact{
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .left_contact h2{
-    width: 0vw;
-    margin-left: 4em;
-    margin-top: 3em;
+    width: 60vw;
     font-size: 4em;
     text-transform: uppercase;
     text-align: center;
-    font-family:Helvetica
+    font-family:Helvetica;
+    text-align: center;
+    margin: auto;
 }
 .left_contact span{
     color: var(--secondary-color);
 }
 
-
-.right_contact{
-    width: 50vw;
-}
-
-.right_contact_details{
-    width: 30vw;
-    margin: auto;
-    margin-top: 14em;
-}
-
 .primary_contact{
-    display: flex;
-    justify-content: space-between;
-    width: 25vw;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
 }
 
 .primary_contact .title {
     font-size: 1.5em;
 }
-
+.secondary_contact{
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+}
 .secondary_contact i{
     color: var(--main-bckgnd-color);
     font-size: 1.5em;
     margin: 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:600px){
-
-}
-
-
 
