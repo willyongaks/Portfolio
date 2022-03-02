@@ -42,11 +42,13 @@ nav{
 .nav_links a{
     position: relative;
     color: var(--main-bckgnd-color);
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
-    width: 50%;
+    text-align: center;
+    width: 100%;
     margin: auto;
+
     
 }
 .nav_links a:hover{
@@ -64,7 +66,7 @@ nav{
 }
 
 .nav_links a:hover::before{
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -379,4 +381,68 @@ contact section
 .email, .phone{
     padding: 30px;
 }
+
+
+
+
+/*
+  Media queris
+  ************
+*/
+
+@media screen and (max-width:769px){
+
+    .nav_links a{
+        font-size: 1em;
+    }
+    .intro_sec p{
+        font-size: .9em;
+    }
+    .intro_sec h1{
+        font-size: 4em;
+    }
+
+    .icons{
+        padding: 0;
+    }
+    .icons p{
+        font-size: .8em;
+    }
+
+    .project_list a{
+        font-size: 1.8em;
+    }
+
+    .prjct_1 img{
+        width: 230px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_info{
+        top: 0;
+    }
+    .about_info > p{
+        font-size: .7em;
+    }
+    
+    .left_side {
+        width: 100vw;
+        height: 50vh;
+    }
+    .right_section {
+        width: 100vw;
+        height: 50vh;
+    }
+    .right_section img{
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
 
