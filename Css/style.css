@@ -107,11 +107,11 @@ nav{
 }
 .open .line_1{
     margin: 0;
-    transform: rotate(45deg);
+    transform: rotate(45deg)translateX(3px);
 }
 .open .line_2{
     margin: 0px;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateX(3px);
 }
 
 .open .line_3{
