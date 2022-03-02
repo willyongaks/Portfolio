@@ -445,4 +445,35 @@ contact section
     }
 }
 
+@media only screen and (max-width: 460px){
+    .intro_sec h1{
+        font-size: 3em;
+    }
+    .intro_sec p{
+        font-size: .7em;
+    }
+
+    .about_info .top_name, .bottom_name{
+        font-size: 2.3em;
+    }
+    .bottom_name {
+        position: relative;
+        bottom: 19px;
+        right: 10px;
+    }
+    .project_list {
+        display: inline;
+        width: 90vw;
+        left: 6em;
+        top: 15em;
+    }
+    .prjct_1{
+        padding: 2em;
+    }
+
+    .left_contact h2{
+        font-size: 3em;
+    }
+}
+
 
