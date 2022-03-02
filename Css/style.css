@@ -41,7 +41,7 @@ nav{
 }
 .nav_links a{
     position: relative;
-    color: var(--secondary-color2);
+    color: var(--main-bckgnd-color);
     font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
@@ -50,13 +50,13 @@ nav{
     
 }
 .nav_links a:hover{
-    color: var(--main-bckgnd-color);
+    color: var(--secondary-color);
 }
 
 .nav_links a::before{
     content: "";
     position: absolute;
-    background-color: var(--secondary-color2) ;
+    background-color: var(--main-bckgnd-color) ;
     height: 3px;
     bottom: -5px;
     left: 0;
@@ -374,5 +374,9 @@ contact section
     color: var(--main-bckgnd-color);
     font-size: 1.5em;
     margin: 2em;
+}
+
+.email, .phone{
+    padding: 30px;
 }
 
