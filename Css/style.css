@@ -89,7 +89,7 @@ nav{
 }
 
 .open .nav_links{
-    width: 20vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
