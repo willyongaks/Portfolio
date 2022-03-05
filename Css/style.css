@@ -153,6 +153,11 @@ nav{
 .intro_sec h1{
     color: var(--submain-bckgnd-colo);
     font-size: 6em;
+    transition: transform 1s;
+}
+
+.intro_sec h1:hover{
+    transform: scale(1.2);
 }
 
 
@@ -234,6 +239,7 @@ Right section
     height: 100vh;
     object-fit: cover;
 }
+
 
 
 
