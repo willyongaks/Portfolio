@@ -38,6 +38,7 @@ header{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 3.5em;
+    position: fixed;
     
 }
 nav{
@@ -87,6 +88,7 @@ nav{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .humberger_menu:hover{
@@ -154,6 +156,7 @@ nav{
     color: var(--submain-bckgnd-colo);
     font-size: 6em;
     transition: transform 1s;
+    letter-spacing: 0.05em;
 }
 
 .intro_sec h1:hover{
