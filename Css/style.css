@@ -241,6 +241,7 @@ Right section
     width: 50vw;
     height: 100vh;
     object-fit: cover;
+    filter: brightness(30%);
 }
 
 
